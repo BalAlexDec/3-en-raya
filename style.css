@@ -1,0 +1,37 @@
+
+button{
+    width:  200px;
+    height: 200px;
+}
+
+
+.container-title{
+    text-align: center;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+}
+
+
+.container-cont{
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 40%;
+    border: 2px solid #000;
+}
+
+
+.cont-party{
+    margin: auto;
+}
+.player-one{
+    margin: auto;
+}
+.player-two{
+    margin: auto;
+}
