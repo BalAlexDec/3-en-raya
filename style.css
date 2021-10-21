@@ -8,6 +8,7 @@ button{
 .container-title{
     text-align: center;
     margin: auto;
+    font-size: 2em;
 }
 .grid-container{
     display: grid;
@@ -15,7 +16,9 @@ button{
     width: 600px;
     margin: auto;
 }
-
+.winner-text{
+    display: none;
+}
 
 .container-cont{
     margin: 60px auto;
@@ -23,6 +26,9 @@ button{
     grid-template-columns: 1fr 1fr 1fr;
     width: 40%;
     border: 2px solid #000;
+}
+button{
+    font-size: 3em;
 }
 
 
